@@ -69,10 +69,13 @@ input::placeholder {
   font-size: 16px;
   line-height: 22px;
   color: #2c2738;
+  padding: 0 30px;
+}
+
+.main_form form {
   display: flex;
   flex-direction: column;
   text-align: start;
-  padding: 0 30px;
 }
 
 .rules {

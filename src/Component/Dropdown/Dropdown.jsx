@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ReactComponent as DownArrow } from "./../../assets/images/downArrow.svg";
 import "./Dropdown.css";
 
-let ddList = [
+let dropDownValuesList = [
   { lang: "Русский" },
   { lang: "Английский" },
   { lang: "Китайский" },
@@ -21,7 +21,7 @@ const Dropdown = ({ getCurrentLang }) => {
       </div>
       <div className="dd_list">
         {openedStatus &&
-          ddList.map((el) => (
+          dropDownValuesList.map((el) => (
             <div
               className="dd_list_element"
               onClick={() => {
